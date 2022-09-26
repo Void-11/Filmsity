@@ -34,10 +34,10 @@ const Sidebar = ({ setMobileOpen }) => {
   const dispatch = useDispatch();
   console.log(data);
   const redLogo =
-    'https://fontmeme.com/permalink/210930/8531c658a743debe1e1aa1a2fc82006e.png';
+    'https://fontmeme.com/permalink/220922/ae9d46840e437a5452e7196426cbf04f.png';
 
   const blueLogo =
-    'https://fontmeme.com/permalink/210930/6854ae5c7f76597cf8680e48a2c8a50a.png';
+    'https://fontmeme.com/permalink/220922/a9631d21370cb26280e4c32ac21720ff.png';
   useEffect(() => {
     setMobileOpen(false);
   }, [genreIdOrCategoryName]);
